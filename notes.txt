@@ -1,0 +1,7 @@
+states
+======
+dataLoaded - replaces all if data and useEffects
+answered - replaces nextDisabled, showMetrics
+  if answered = false, disable the next button, hide the right/wrong text, hide the showMetrics
+  if answered = true, enable the next button, show the answer, show the metrics
+  use ternary?
